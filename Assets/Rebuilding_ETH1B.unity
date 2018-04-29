@@ -440,7 +440,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &688830349
 Prefab:
@@ -514,19 +514,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011071233274, guid: 92c612c1f094e1949bb078a5bd8ef5c9, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.017911335
+      value: -0.2589459
       objectReference: {fileID: 0}
     - target: {fileID: 4000011071233274, guid: 92c612c1f094e1949bb078a5bd8ef5c9, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.7068799
+      value: 0.6579871
       objectReference: {fileID: 0}
     - target: {fileID: 4000011071233274, guid: 92c612c1f094e1949bb078a5bd8ef5c9, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.7068799
+      value: 0.6579871
       objectReference: {fileID: 0}
     - target: {fileID: 4000011071233274, guid: 92c612c1f094e1949bb078a5bd8ef5c9, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.017911335
+      value: 0.2589459
       objectReference: {fileID: 0}
     - target: {fileID: 4000011939836624, guid: 92c612c1f094e1949bb078a5bd8ef5c9, type: 2}
       propertyPath: m_LocalScale.x
@@ -674,6 +674,26 @@ Prefab:
       propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
       value: 30.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 198000011328995900, guid: 92c612c1f094e1949bb078a5bd8ef5c9,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 30.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011328995900, guid: 92c612c1f094e1949bb078a5bd8ef5c9,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 30.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011328995900, guid: 92c612c1f094e1949bb078a5bd8ef5c9,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 30.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011328995900, guid: 92c612c1f094e1949bb078a5bd8ef5c9,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.minScalar
+      value: 30.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 92c612c1f094e1949bb078a5bd8ef5c9, type: 2}
   m_IsPrefabParent: 0
@@ -791,16 +811,16 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1539025009}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.38268343, y: -0, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: -0.25, y: -18.158504, z: 57.968616}
   m_LocalScale: {x: 47.442707, y: 47.442707, z: 47.442707}
   m_Children:
   - {fileID: 1250093757}
   - {fileID: 568076562}
   - {fileID: 1308763531}
   - {fileID: 2037965429}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 1740555422}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1539025011
 MeshFilter:
@@ -982,7 +1002,8 @@ Transform:
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
   m_LocalPosition: {x: 0.25, y: 53.83, z: -28.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1539025010}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
